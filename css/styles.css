@@ -1,0 +1,40 @@
+body{
+    background-image: url(../moviebg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+p{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bolder;
+  font-size: 30px;
+  text-align: center;
+
+  color :rgb(157, 221, 244);
+  text-shadow: 2px 1px 3px pink;
+}
+table{
+  border-spacing: 100px;
+  
+}
+.fastX , .ant , .flash, .pib{
+  
+    border-radius:10%;
+    box-shadow: 15px -5px 15px white;
+    
+}
+
+.fastX:hover{
+  box-shadow: 8px -7px 16px red ;
+}
+
+.ant:hover{
+  box-shadow: 8px -7px 16px rgb(95, 206, 246) ;
+}
+
+.flash:hover{
+  box-shadow: 8px -7px 16px rgb(190, 241, 115) ;
+}
+.pib:hover{
+  box-shadow: 8px -7px 16px rgb(240, 186, 86) ;
+}
+
